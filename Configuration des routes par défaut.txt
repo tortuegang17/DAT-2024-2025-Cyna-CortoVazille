@@ -1,0 +1,12 @@
+Configuration des routes par défaut
+config router static
+edit 1
+set device port1
+set gateway 10.1.120.1
+next
+edit 2
+set device port2
+set gateway 10.1.120.5
+set distance 10
+end
+

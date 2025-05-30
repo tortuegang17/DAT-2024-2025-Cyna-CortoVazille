@@ -1,0 +1,6 @@
+Ajout du serveur RADIUS (FortiAuthenticator)
+config user radius
+edit "fortiauth"
+set server 10.1.50.20
+set secret fortisecret
+end

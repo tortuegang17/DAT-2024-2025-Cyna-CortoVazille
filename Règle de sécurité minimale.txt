@@ -1,0 +1,14 @@
+Règle de sécurité minimale
+config firewall policy
+edit 1
+set name "Allow_Users_to_Internet"
+set srcintf "lan"
+set dstintf "port1"
+set srcaddr "all"
+set dstaddr "all"
+set action accept
+set schedule always
+set service "HTTPS" "HTTP"
+set logtraffic all
+next
+end

@@ -1,0 +1,8 @@
+Configuration de la haute disponibilité
+config system ha
+set mode a-p
+set group-id 1
+set group-name "FG-Cluster"
+set hbdev "port10" 50
+set priority 100
+end

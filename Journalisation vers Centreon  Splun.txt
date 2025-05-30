@@ -1,0 +1,7 @@
+Journalisation vers Centreon / Splunk
+config log syslogd setting
+set status enable
+set server 10.1.110.10
+set mode udp
+set port 514
+end

@@ -1,0 +1,2 @@
+Sauvegarde de la configuration
+execute backup config ftp <IP-FTP> fortigate.conf <login> <motdepasse>
